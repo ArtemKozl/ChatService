@@ -1,0 +1,20 @@
+﻿POST https://localhost:7125/ChatGroups/addgroup
+Host: localhost:7125
+Content-Type: application/json
+
+{
+  "name": "st654fghring",
+  "id": 0
+}
+
+###
+
+POST https://localhost:7290/Users/login
+Host: localhost:7290
+Content-Type: application/json
+
+{
+  "email": "string",
+  "password": "string"
+}
+
